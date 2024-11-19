@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>MOVE iT.</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">HOME</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">ABOUT</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">SERVICE</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span> MOVE iT.</span>
+              <br />
+              Create beautiful and Attractive.
+            </h1>
+            <p class="info-text">
+              Build a beautiful, modern and Attractive website with Responsive-Ness.
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                view all pages <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">documentation</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="team.svg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="about-text">
+          <h1 style="font-size: 2.5rem; color :black;  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-transform: capitalize;">About Me</h1>
+          <p class="lead-para">
+           <br><br> A passionate Full Stack web Developer 🚀 having an experience 
+            of building Web Application with  html5 / css3 / JavaScript / .Net / Asp.net with cool frameworks.
+            I can provide clean code and pixel perfect design. I also make the website more & more interactive 
+with web animations.  And also make responsive thats design 
+ makes your website accessible to all users,regardless of their device.            
+             Mobile-first, responsive design layout for all devices is a top priority.
+          <br><br>
+         <button class="btn common-btn"  ><a class="links">contact us</a></button>
+        </p> </div>
+    
+      <div class="about-image">
+          <img src="about.png" alt="About Image">
+      </div>
+  </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title"><h2> Web developers </h2></span>
+              <p>
+                Our web development services include custom website design, development, and maintenance.
+                <br>Providing ongoing support, updates, and troubleshooting for existing websites.<br>
+                Building responsive and dynamic websites using HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.js.
+                <br> <br><b>E-commerce Development > </b> Creating online stores using platforms like Shopify, WooCommerce, or custom solutions.
+             
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Designed to be modern</span>
+              <p>
+                <h2>Responsive Design</h2>
+                <p> Ensuring websites are mobile-friendly and provide a seamless experience across devices..<br><br>
+                  <h2>UX & UI Design</h2> Designing intuitive and engaging user interfaces that enhance user interaction.
+               
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Documentation for everything</span>
+              <p>
+            <ol>
+              <li>
+                legal agreements <br>
+              </li>
+              <li>
+                required website design<br>
+              </li>
+            </ol>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer" id="reg">
+          <span>Created By : mrboy91</span>
+          <br>
+          <ul>
+              <li><a href="#">Terms and Conditions</a></l>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="social-media">
+              <a href="#" target="_blank"> LINKEDIN <i class="fa fa-facebook"></i></a>
+              <a href="#" target="_blank"> GITHUB <i class="fa fa-twitter"></i></a>
+              <a href="#" target="_blank"> INSTAGRAM <i class="fa fa-instagram"></i></a>
+          </div>
+          <br><span>© Copyrights 2024 - 2025</span>
+      </div>
+  </footer>
+
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
